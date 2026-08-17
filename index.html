@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe — Automated SMS Sync & Unified Credit Card Bill Aggregator</title>
+    <meta name="description" content="Automatic SMS sync and credit card bill aggregation across HDFC, ICICI, SBI, Axis, Amex, and more. Never miss a bill payment or pay late fees again.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">
+                <span class="logo-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="5" width="20" height="14" rx="4" fill="url(#brand-grad)"/>
+                        <path d="M2 10H22" stroke="white" stroke-width="1.5" stroke-opacity="0.3"/>
+                        <circle cx="6.5" cy="14.5" r="1.5" fill="white"/>
+                    </svg>
+                    <svg width="0" height="0">
+                        <defs>
+                            <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#14D9C4"/>
+                                <stop offset="100%" stop-color="#4F8CFF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="brand-text">SWIPE</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#sms-sync">Automatic SMS Sync</a>
+                <a href="#bill-aggregator">Bill Aggregator</a>
+                <a href="#banks">Supported Banks</a>
+                <a href="#security">Privacy & Security</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#download" class="btn btn-secondary glass-btn">Sign In</a>
+                <a href="#download" class="btn btn-primary glow-btn">Get App</a>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Real-Time SMS Syncing + Credit Card Bill Aggregator</span>
+            </div>
+
+            <h1 class="hero-title">
+                All Your Credit Cards. <br>
+                <span class="gradient-text">One Unified Bill & Live SMS Sync.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Automatic on-device SMS transaction parsing paired with unified credit card bill aggregation. Track HDFC, ICICI, SBI, Axis & Amex due dates in real time with zero manual effort.
+            </p>
+
+            <div class="hero-cta-group">
+                <a href="#download" class="btn btn-hero glow-btn">
+                    <span>Download Swipe Free</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <div class="rating-badge">
+                    <div class="stars">★★★★★</div>
+                    <span>Zero Late Fees Guarantee · 100% Private On-Device Sync</span>
+                </div>
+            </div>
+
+            <!-- Real App Screen Hero Mockup -->
+            <div class="hero-real-image-wrapper">
+                <div class="visual-glow"></div>
+                <img src="assets/hero_dashboard.png" alt="Swipe App Dashboard - Credit Card Bill Aggregator & Live SMS Sync" class="hero-real-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Pillar 1: Automatic SMS Syncing -->
+    <section class="sms-sync-section" id="sms-sync">
+        <div class="container feature-split">
+            <div class="feature-text-side">
+                <span class="section-tag">REAL-TIME AUTOMATION</span>
+                <h2 class="section-title">Instant On-Device SMS Parsing Engine.</h2>
+                <p class="section-description">
+                    Never type an expense again. Swipe reads bank SMS notifications in real time directly on your Android or iOS device, extracting merchant names, spend categories, and debit amounts instantly.
+                </p>
+                <ul class="check-list">
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <strong>Zero Manual Logging</strong>
+                            <p>Expenses are recorded in milliseconds as bank SMS notifications hit your inbox.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <strong>Autopay Smart Filtering</strong>
+                            <p>Distinguishes future debit reminders from actual spent transactions to prevent double counting.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <strong>Built for money management</strong>
+                            <p>SMS access is used to detect bank debits, credits, and transfers and turn them into tracked expenses.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="feature-image-side">
+                <img src="assets/sms_sync.png" alt="Automatic SMS Syncing Interface in Swipe App" class="feature-real-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Pillar 2: Credit Card Bill Aggregator -->
+    <section class="bill-aggregator-section" id="bill-aggregator">
+        <div class="container feature-split reverse">
+            <div class="feature-image-side">
+                <img src="assets/bill_aggregator.png" alt="Credit Card Bill Aggregator Interface in Swipe App" class="feature-real-img">
+            </div>
+            <div class="feature-text-side">
+                <span class="section-tag">UNIFIED CREDIT CARD BILLING</span>
+                <h2 class="section-title">Aggregated Bill Due Dates & Total Spend.</h2>
+                <p class="section-description">
+                    Managing multiple credit cards from HDFC, ICICI, SBI, Axis, Amex, and Kotak can get chaotic. Swipe aggregates all statement balances and upcoming payment deadlines into a single command center.
+                </p>
+                <div class="aggregator-stats-grid">
+                    <div class="agg-stat-card glass-card">
+                        <span class="agg-num teal-accent">₹2,14,500</span>
+                        <span class="agg-label">Total Unified Bill Due</span>
+                    </div>
+                    <div class="agg-stat-card glass-card">
+                        <span class="agg-num blue-accent">0 Late Fees</span>
+                        <span class="agg-label">Guaranteed Due Alerts</span>
+                    </div>
+                </div>
+                <ul class="check-list">
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <strong>Aggregated Statements Ledger</strong>
+                            <p>Combines total credit card balances across all your bank cards in one view.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <strong>Smart Bill Payment Reminders</strong>
+                            <p>Alerts you before due dates so you never pay interest penalties or late charges.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supported Banks Grid -->
+    <section class="banks" id="banks">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">UNIVERSAL BANK SUPPORT</span>
+                <h2 class="section-title">Seamless SMS & Statement Aggregation across India.</h2>
+            </div>
+
+            <div class="bank-grid">
+                <div class="bank-badge">
+                    <span class="bank-icon">🏦</span>
+                    <span class="bank-name">HDFC Bank Cards</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">💳</span>
+                    <span class="bank-name">ICICI Bank Cards</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">🏛️</span>
+                    <span class="bank-name">SBI Credit Cards</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">⚡</span>
+                    <span class="bank-name">Axis Bank Cards</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">💎</span>
+                    <span class="bank-name">Amex Platinum/Gold</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">🌟</span>
+                    <span class="bank-name">Kotak Cards</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">⚡</span>
+                    <span class="bank-name">IndusInd Cards</span>
+                </div>
+                <div class="bank-badge">
+                    <span class="bank-icon">✨</span>
+                    <span class="bank-name">YES Bank Cards</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Privacy Section -->
+    <section class="security" id="security">
+        <div class="container">
+            <div class="security-card glass-card">
+                <div class="sec-left">
+                    <span class="section-tag">PRIVACY FIRST ARCHITECTURE</span>
+                    <h2>Secure sync & privacy controls</h2>
+                    <p>Swipe is built with a dark luxury aesthetic and careful privacy controls. SMS used for expense tracking is transmitted over encrypted connections to power parsing and sync. We do not sell your data.</p>
+                </div>
+                <div class="sec-grid">
+                    <div class="sec-item">
+                        <span class="sec-icon">🔒</span>
+                        <h4>AES-256 Storage</h4>
+                        <p>Encrypted password & statement storage at rest.</p>
+                    </div>
+                    <div class="sec-item">
+                        <span class="sec-icon">🛡️</span>
+                        <h4>SMS money management</h4>
+                        <p>Bank alerts synced over HTTPS and parsed into your private ledger.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA Banner -->
+    <section class="cta-banner" id="download">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-glow"></div>
+                <h2>Aggregate your credit card bills & sync SMS today.</h2>
+                <p>Join smart cardholders using Swipe for total credit control and zero late fees.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-hero glow-btn">Download Swipe App</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="brand">
+                    <span class="brand-text">SWIPE</span>
+                </div>
+                <p>The luxury credit card bill aggregator and automated SMS expense tracker for modern India.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Product Features</h4>
+                <a href="#sms-sync">Automatic SMS Sync</a>
+                <a href="#bill-aggregator">Bill Aggregator</a>
+                <a href="#banks">Supported Banks</a>
+                <a href="#security">Privacy & Security</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <a href="#">SMS Parser Engine</a>
+                <a href="#">Statement Email Worker</a>
+                <a href="#">Security Overview</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Connect</h4>
+                <a href="#">Twitter / X</a>
+                <a href="#">GitHub</a>
+                <a href="#">Discord</a>
+                <a href="mailto:support@saurabh.build">Support</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Swipe (Flow Expense Tracker). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

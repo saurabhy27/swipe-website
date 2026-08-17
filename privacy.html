@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Swipe</title>
+    <meta name="description" content="Privacy Policy for Swipe, the SMS expense tracker and credit card bill aggregator.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .legal {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 120px 24px 80px;
+        }
+        .legal h1 {
+            font-family: var(--font-heading);
+            font-size: 2.4rem;
+            margin-bottom: 0.5rem;
+        }
+        .legal .meta {
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+        }
+        .legal h2 {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            margin: 2rem 0 0.75rem;
+            color: var(--accent-teal);
+        }
+        .legal p, .legal li {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 0.75rem;
+        }
+        .legal ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+        .legal a { color: var(--accent-teal); }
+        .legal strong { color: var(--text-primary); }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand">
+                <span class="brand-text">SWIPE</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="terms.html">Terms</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="legal">
+        <h1>Privacy Policy</h1>
+        <p class="meta">Last updated: 2 August 2026 · Applies to the Swipe mobile apps and related services.</p>
+
+        <p>This Privacy Policy explains how Swipe (“<strong>Swipe</strong>,” “<strong>we</strong>,” “<strong>us</strong>”) collects, uses, stores, and deletes information when you use our Android/iOS apps and backend services for SMS-based expense tracking and credit card bill aggregation.</p>
+
+        <h2>1. Who we are</h2>
+        <p>Swipe is a personal finance product that helps you turn bank SMS alerts and credit card statements into organized transactions, dashboards, and insights.</p>
+        <p>Contact: <a href="mailto:support@saurabh.build">support@saurabh.build</a></p>
+
+        <h2>2. Information we collect</h2>
+        <p><strong>Account information.</strong> Email address, password (handled by our auth provider), display name, profile photo if you upload one, and internal user IDs.</p>
+        <p><strong>SMS messages (Android, with your permission).</strong> When you grant SMS permission for money management, we read SMS from your device within a lookback window and may upload to our servers: sender/address, message body, received time, and a hash used for deduplication. We use this to detect and parse financial alerts (debits, credits, transfers) into structured transactions. Incoming SMS broadcasts may also be used so new alerts can sync promptly.</p>
+        <p><strong>Financial transaction data.</strong> Parsed and imported transactions (amount, merchant, category, direction, bank/account nicknames, notes, refunds, self-transfer flags), credit card metadata you add, and statement-derived spend.</p>
+        <p><strong>Device information.</strong> For SMS sync we register a device identifier along with manufacturer, model, Android version, and app version so sync can run reliably across phones.</p>
+        <p><strong>Usage & diagnostics.</strong> Limited product events related to authentication and app reliability. We do not sell personal data or use SMS content for third-party advertising.</p>
+
+        <h2>3. How we use information</h2>
+        <ul>
+            <li>Provide core features: SMS expense tracking, dashboards, categories, merchant insights, and card/statement workflows</li>
+            <li>Authenticate you and secure your account</li>
+            <li>Sync data across your devices and keep backups of your ledger on our servers</li>
+            <li>Improve parsing quality and prevent duplicate transactions</li>
+            <li>Respond to support requests and meet legal obligations</li>
+        </ul>
+
+        <h2>4. SMS permission (important)</h2>
+        <p>SMS access is requested because <strong>automatic money management from bank SMS is a core feature</strong> of Swipe on Android. We do not need to be your default SMS app. You can revoke SMS permission in Android Settings at any time; doing so stops further SMS reading and sync from the device.</p>
+        <p>We process SMS to extract financial transactions. You should only enable SMS sync if you are comfortable with financial and other messages in the scanned window being transmitted to our servers for parsing under this policy.</p>
+
+        <h2>5. Legal bases (where applicable)</h2>
+        <p>Depending on your region, we rely on: performance of a contract (providing the app you asked for), your consent (e.g. SMS permission and optional profile photo), and legitimate interests (security, fraud prevention, product improvement) that do not override your rights.</p>
+
+        <h2>6. Sharing</h2>
+        <p>We do <strong>not sell</strong> your personal information. We share data only with:</p>
+        <ul>
+            <li><strong>Service providers</strong> that host auth, database, and storage infrastructure on our behalf (for example, our cloud/auth provider), under contractual limits</li>
+            <li><strong>Authorities</strong> when required by law or to protect users and the service</li>
+        </ul>
+        <p>We do not use third-party advertising SDKs to monetize SMS or transaction content.</p>
+
+        <h2>7. Retention</h2>
+        <p>We keep account, transaction, and related SMS/parsing records while your account is active and as needed to operate the service. You may delete your account from the app (or by emailing support). After deletion we remove profile and associated account data from our primary systems, subject to short backup/legal retention windows.</p>
+
+        <h2>8. Security</h2>
+        <p>We transmit data over HTTPS/TLS and restrict access to production systems. No method of transmission or storage is 100% secure; please use a strong password and keep your device updated.</p>
+
+        <h2>9. Your choices & rights</h2>
+        <ul>
+            <li>Revoke SMS or notification permissions in system settings</li>
+            <li>Edit profile details in the app</li>
+            <li>Delete your account in the app or by contacting support</li>
+            <li>Request access or correction by emailing support (we may need to verify identity)</li>
+        </ul>
+
+        <h2>10. Children</h2>
+        <p>Swipe is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect data from children.</p>
+
+        <h2>11. International transfers</h2>
+        <p>Our infrastructure may process data in countries other than yours. Where required, we use appropriate safeguards with our processors.</p>
+
+        <h2>12. Changes</h2>
+        <p>We may update this policy. We will revise the “Last updated” date and, for material changes, provide additional notice in the app or by email when appropriate.</p>
+
+        <h2>13. Contact</h2>
+        <p>Questions about privacy: <a href="mailto:support@saurabh.build">support@saurabh.build</a></p>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-bottom">
+            <p>© 2026 Swipe. <a href="index.html">Home</a> · <a href="terms.html">Terms</a></p>
+        </div>
+    </footer>
+</body>
+</html>
