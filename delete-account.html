@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete your Swipe account</title>
+    <meta name="description" content="How to request deletion of your Swipe account and associated data.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .legal {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 120px 24px 80px;
+        }
+        .legal h1 {
+            font-size: clamp(28px, 4vw, 42px);
+            margin-bottom: 6px;
+        }
+        .legal .meta {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 48px;
+        }
+        .legal h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 36px 0 10px;
+            color: var(--text);
+        }
+        .legal p, .legal li {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        .legal ul, .legal ol {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        .legal a { color: var(--accent); }
+        .legal strong { color: var(--text); font-weight: 600; }
+        .legal .callout {
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand">Swipe</a>
+            <nav class="nav-links">
+                <a href="index.html#sms">SMS Sync</a>
+                <a href="index.html#cards">Card View</a>
+                <a href="index.html#insights">Insights</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+            <a href="index.html#download" class="nav-cta">Get App</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="legal">
+        <h1>Delete your Swipe account</h1>
+        <p class="meta">For the Swipe app (expense tracker &amp; SMS money management) · Last updated: 18 August 2026</p>
+
+        <p>This page explains how to request that your <strong>Swipe</strong> account and associated data are permanently deleted.</p>
+
+        <h2>How to request deletion</h2>
+        <ol>
+            <li>Email <a href="mailto:support@saurabh.build?subject=Swipe%20account%20deletion%20request">support@saurabh.build</a> from the same email address you use to sign in to Swipe.</li>
+            <li>Use the subject line: <strong>Swipe account deletion request</strong>.</li>
+            <li>Include your Swipe login email (and, if you know it, the name shown on your profile).</li>
+            <li>We will verify ownership of the account and process the deletion.</li>
+        </ol>
+
+        <div class="callout">
+            <p><strong>Contact:</strong> <a href="mailto:support@saurabh.build">support@saurabh.build</a></p>
+            <p>We aim to complete verified deletion requests within <strong>30 days</strong>. Signing out of the app only clears local data on that device and does <strong>not</strong> delete your server account.</p>
+        </div>
+
+        <h2>What we delete</h2>
+        <p>When your deletion request is processed, we remove from our primary systems:</p>
+        <ul>
+            <li>Your account / auth profile (email login)</li>
+            <li>Profile details (display name, avatar if any)</li>
+            <li>Parsed transactions and related ledger data</li>
+            <li>SMS sync records associated with your account (including stored message content used for parsing, where retained)</li>
+            <li>Linked SMS devices, accounts/cards metadata tied to your user ID</li>
+            <li>Import / sync history tied to your account</li>
+        </ul>
+
+        <h2>What may be kept temporarily</h2>
+        <ul>
+            <li>Short-lived backups or logs needed for security, fraud prevention, or legal compliance, typically retained for a limited period and then purged</li>
+            <li>Information we are required by law to keep (if applicable)</li>
+        </ul>
+
+        <h2>Partial data requests</h2>
+        <p>Today, permanent removal of your data is handled through <strong>full account deletion</strong> via the email process above. In-app actions such as excluding a transaction from spend analytics or removing a card do not delete your entire account.</p>
+
+        <h2>Privacy Policy</h2>
+        <p>See our full <a href="privacy.html">Privacy Policy</a> for how Swipe collects and uses data, including SMS for money management.</p>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="brand">Swipe</a>
+                <p>SMS expense tracker &amp; credit card aggregator for India.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Features</h4>
+                <a href="index.html#sms">SMS Sync</a>
+                <a href="index.html#cards">Card View</a>
+                <a href="index.html#insights">Spending Insights</a>
+                <a href="index.html#banks">Supported Banks</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="delete-account.html">Delete Account</a>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <a href="mailto:support@saurabh.build">support@saurabh.build</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Swipe (Flow Expense Tracker). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
